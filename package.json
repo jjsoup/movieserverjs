@@ -1,12 +1,16 @@
 {
   "name": "movienay-api",
   "version": "1.0.0",
+  "main": "_worker.js",
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.114.17"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.0.0",
     "@aws-sdk/client-s3": "^3.0.0",
     "@aws-sdk/s3-request-presigner": "^3.0.0"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy _worker.js"
   }
 }
