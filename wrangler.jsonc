@@ -1,5 +1,17 @@
 {
   "name": "movienay-api",
   "main": "_worker.js",
-  "compatibility_date": "2026-04-25"
+  "compatibility_date": "2026-04-26",
+  "vars": {
+    "SB_URL": "https://tzqocixgnvyecjravvsr.supabase.co",
+    "SB_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR6cW9jaXhnbnZ5ZWNqcmF2dnNyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE2OTU2NDksImV4cCI6MjA4NzI3MTY0OX0._WWqrZkvQRijutrCnLCbWoWM4Eid6S_o_J7DsfkXeT8",
+    "R2_ACCOUNT_ID": "8ccd36b447b6cce610108c77005e6cdb",
+    "R2_ACCESS_KEY_ID": "7b973b0c98e3e34443a4f63fa8f1250a",
+    "R2_SECRET_ACCESS_KEY": "3e109b50dc1bf2c5433f0a87cccc06d27b6d2f84c448841926c3833288e48d2c",
+    "R2_BUCKET_NAME": "movienay"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
 }
